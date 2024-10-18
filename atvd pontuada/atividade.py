@@ -54,7 +54,7 @@ def main():
     vale_transporte = input("Deseja receber vale transporte? (s/n): ").lower()
     vale_refeicao = float(input("Digite o valor do vale refeição fornecido pela empresa (R$): "))
     
-    # Considerando que o funcionário tem 1 dependente
+    # Considerando funcionário dependente
     dependentes = 1
 
     salario_liquido = calcular_salario_liquido(salario_base, vale_transporte, vale_refeicao, dependentes)
